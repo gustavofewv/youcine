@@ -4,6 +4,8 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #000000;
     --fonte-principal:'Inter';
+    --botoa-efeito:#00FF00;
+
      
  }   
 body{
@@ -86,6 +88,9 @@ body{
 }
 .dispositivos_titulos{
     font-size: 40px;
+}
+.container_botao:hover{
+    background-color:var(--botoa-efeito);
 }
 
 
